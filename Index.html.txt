@@ -1,0 +1,146 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AZIZ ALBAZ</title>
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: black;
+      color: white;
+    }
+
+    h1, h2, h3 {
+      color: #ccc;
+      text-transform: uppercase;
+    }
+
+    a {
+      color: #999;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #fff;
+    }
+
+    /* Header Section */
+    header {
+      background: linear-gradient(90deg, #000, #333);
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: silver;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #bbb;
+    }
+
+    /* Section Styles */
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    section:nth-child(odd) {
+      background-color: #111;
+    }
+
+    section:nth-child(even) {
+      background-color: #222;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    section p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: #aaa;
+    }
+
+    /* Socials and Contact */
+    .socials a, .contact-info a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 15px;
+      background-color: silver;
+      border-radius: 5px;
+      color: black;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .socials a:hover, .contact-info a:hover {
+      background-color: #999;
+    }
+
+    /* Footer */
+    footer {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer p {
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AZIZ ALBAZ</h1>
+    <p>Minimalism meets the future</p>
+  </header>
+
+  <section id="who-am-i">
+    <h2>Who am I?</h2>
+    <p>A visionary brand that redefines style, elegance, and modernity. Explore the world of AZIZ ALBAZ, where simplicity meets futuristic design.</p>
+  </section>
+
+  <section id="the-closet">
+    <h2>The Closet</h2>
+    <p>Step into the curated collection of styles that define the essence of modern Y2K fashion. Bold, sleek, and unforgettable.</p>
+  </section>
+
+  <section id="products">
+    <h2>Products</h2>
+    <p>Discover the signature items of AZIZ ALBAZ—crafted to perfection, designed for those who dare to stand out.</p>
+  </section>
+
+  <section id="gift-items">
+    <h2>Gift Items</h2>
+    <p>Looking for something special? Explore exclusive gift options that capture the spirit of the brand.</p>
+  </section>
+
+  <section class="socials">
+    <h2>Socials</h2>
+    <a href="#" target="_blank">Instagram</a>
+    <a href="#" target="_blank">Twitter</a>
+    <a href="#" target="_blank">TikTok</a>
+  </section>
+
+  <section class="contact-info">
+    <h2>Contact Info</h2>
+    <p>Email us at: <a href="mailto:info@azizalbaz.com">info@azizalbaz.com</a></p>
+    <p>Call us: <a href="tel:+1234567890">+1234567890</a></p>
+  </section>
+
+  <footer>
+    <p>© 2024 AZIZ ALBAZ. All rights reserved.</p>
+  </footer>
+</body>
+</html>
